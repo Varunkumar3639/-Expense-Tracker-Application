@@ -1,0 +1,86 @@
+
+
+
+  
+  .expense-card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .form-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #28a745;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    border-radius: 2px;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn-success {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .card-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  h2 {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    transform: translateX(-50%);
+    border-radius: 2px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
